@@ -1,10 +1,15 @@
 # ads3.contatos
-📑 Agenda Swing: Evolução Arquitetural Didática
-Este projeto é uma aplicação de agenda pessoal desenvolvida em Java Swing. O objetivo central é demonstrar a evolução de um código funcional simples para uma Arquitetura em Camadas (Layered Architecture) profissional.
-🚀 O Projeto
-Uma agenda para cadastro de contatos (Nome, E-mail e Telefone) com persistência em arquivo de texto (.txt), validações rigorosas e exclusão lógica.
-🛠️ Tecnologias Utilizadas
-Linguagem: Java 8+
+## 📑 Agenda Swing: Evolução Arquitetural Didática
+# Este projeto é uma aplicação de agenda pessoal desenvolvida em Java Swing. O objetivo central é demonstrar a evolução de um código funcional simples para uma Arquitetura em Camadas (Layered Architecture) profissional.
+## 🚀 O Projeto
+# Uma agenda para cadastro de contatos (Nome, E-mail e Telefone) com persistência em arquivo de texto (.txt), validações rigorosas e exclusão lógica.
+## 🛠️ Tecnologias Utilizadas
+*   **JDK 21**: Utilizando as últimas funcionalidades da linguagem.
+*   **Maven**: Gestão de dependências e ciclo de vida do projeto.
+*   **Lombok**: Redução de código repetitivo através de anotações (Getters, Setters, Builders).
+*   **Java Swing**: Interface rica e funcional.
+*   
+# Linguagem: Java 21
 Interface: Java Swing (NetBeans GUI Builder)
 Persistência: Arquivo Texto (.txt) via Java NIO
 Arquitetura: MVC + Service + Repository (Camadas)
