@@ -32,5 +32,24 @@
   *   **Clone o repositório**: git clone [URL_DO_REPO]
    *   Abra o projeto no NetBeans IDE.
    *   Certifique-se de que o JDK está configurado (versão 21 ou superior).
+
+# Diagrama de Componentes
+componentDiagram
+  package "Interface do Usuário (View)" {
+    [ListaContatos.java] 
+    [TelaCadastro.java]
+  }
+
+  node "Sistema de Arquivos" {
+    [agenda.txt]
+  }
+
+  note right of [TelaCadastro.java] : Contém:\n- Layout\n- Validação de Campos\n- Lógica de Duplicidade\n- Escrita em TXT (FileWriter)
+  
+  note left of [ListaContatos.java] : Contém:\n- Layout\n- Leitura de TXT (FileReader)\n- Lógica de Filtro\n- Navegação entre Telas
+
+  [ListaContatos.java] --> [agenda.txt] : Lê diretamente
+  [TelaCadastro.java] --> [agenda.txt] : Escreve diretamente
+  [ListaContatos.java] <--> [TelaCadastro.java] : Dependência Mútua
    *   Execute a classe view.ListaContatos.
 
