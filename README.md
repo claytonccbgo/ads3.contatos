@@ -40,7 +40,7 @@
 
 # 📊 Resumo da Estratégia de Testes
    | Camada | Tipo de Teste |	Ferramenta | Foco |
-   |:---:|:---:|:---:|:---:|
+   |:---:|:---:|:---:|:---|
    | Model | Unitário | JUnit 5 | Estrutura de dados e Lombok |
    | Repository | Integração | JUnit 5 + I/O | Persistência real em arquivo .txt |
    | Service | Unitário | Mockito | Regras de negócio e Regex (Cérebro) |
