@@ -39,9 +39,10 @@
 
 
 # 📊 Resumo da Estratégia de Testes
-##   | Camada | Tipo de Teste |	Ferramenta | Foco |
-##   | Model | Unitário | JUnit 5 | Estrutura de dados e Lombok |
-##   | Repository | Integração | JUnit 5 + I/O | Persistência real em arquivo .txt |
-##   | Service | Unitário | Mockito | Regras de negócio e Regex (Cérebro) |
-##   | Controller | Unitário | Mockito | Tradução de mensagens e fluxo |
-##   | View	UI/E2E | AssertJ | Swing | Interação do usuário e diálogos |
+   | Camada | Tipo de Teste |	Ferramenta | Foco |
+   |:---:|:---:|:---:|:---:|
+   | Model | Unitário | JUnit 5 | Estrutura de dados e Lombok |
+   | Repository | Integração | JUnit 5 + I/O | Persistência real em arquivo .txt |
+   | Service | Unitário | Mockito | Regras de negócio e Regex (Cérebro) |
+   | Controller | Unitário | Mockito | Tradução de mensagens e fluxo |
+   | View	UI/E2E | AssertJ | Swing | Interação do usuário e diálogos |
