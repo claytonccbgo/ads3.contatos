@@ -36,6 +36,8 @@
 
 # Diagrama de Componente
 <img width="910" height="496" alt="Diagrama de componente" src="https://github.com/user-attachments/assets/260cf84a-23ca-4cce-a6c7-cb5f9d77ce18" />
+
+
 # 📊 Resumo da Estratégia de Testes
 ##   | Camada | Tipo de Teste |	Ferramenta | Foco |
 ##   | Model | Unitário | JUnit 5 | Estrutura de dados e Lombok |
